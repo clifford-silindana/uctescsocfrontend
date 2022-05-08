@@ -1,0 +1,116 @@
+.navigation {
+    display : flex;
+    justify-content : space-between;
+    align-items: center;
+    position : fixed;
+    width : 90%;
+    top : 0%;
+    z-index: 1000;
+    background : black;
+    
+    
+}
+
+.navigation-links {
+    margin : 0 10 0 0;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    align-content: center;
+
+}
+
+.navigation-link {
+    display : flex;
+    justify-content : space-between;
+    
+}
+
+.UCTESClogo-img {
+    width: 70px;
+    margin-top : 25px;
+    margin-left : 5px;
+  }
+
+.cheeseburger-menu {
+    width : 50px
+}
+
+.nav-link-text {
+      display : none;
+  }
+
+
+
+.navigation a {
+    clear : right;
+    text-decoration : none;
+    color : grey;
+    margin : 0 5px;
+    line-height : 70px;
+}
+
+
+label {
+    margin : 0 40px 0 0;
+    font-size : 20px;
+    line-height : 70px;
+    display : none;
+    width : 26px;
+    float : right;
+}
+
+#toggle {
+    display : none;
+}
+
+.nav-link-img {
+    width: 30px;
+    margin-left: 3em;
+  }
+
+@media only screen and (max-width : 500px) {
+    label {
+        display : block;
+        cursor : pointer;
+    }
+
+    .navigation-links {
+        display : flex;
+        justify-content: center;
+        text-align : right;
+        width : 100%;
+        display : none;
+
+    }
+
+    
+    .navigation-link {
+        display : block;
+        border-bottom : 1px solid #EAEAEB;
+        padding : 10px;
+        margin : 0;
+
+    }
+
+    .nav-link-text {
+        display : block;
+        float : right;
+        
+
+        
+    }
+
+
+    #toggle:checked + .navigation-links {
+        display : block;
+
+    }
+
+    #toggle:checked + .UCTESClogo-img {
+        display : none;
+    }
+
+
+
+}

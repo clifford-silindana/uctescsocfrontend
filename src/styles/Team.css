@@ -1,0 +1,104 @@
+.team-members {
+    width : 100%;
+    min-height : 100vh;
+    margin-top : 5%;
+    margin-bottom : 20%;
+}
+    
+.team-heading {
+    text-align : center;
+    font-size : 30px;
+    
+}
+.executive-members {
+    width : 100%;
+    min-height : 100vh;
+
+}
+
+.directors-members {
+    width : 100%;
+    min-height : 100vh;
+    margin-top : 20%;
+
+}
+
+.image-area {
+    width : 25%;
+    max-height : 400px;
+    
+}
+
+.row-1 {
+    display : flex;
+    justify-content : space-between;
+    width : 100%;
+    margin-top : 5%;
+}
+
+.row-2a {
+    display : flex;
+    justify-content : space-evenly;
+    width : 100%;
+    margin-top : 15%;
+}
+
+.row-2b {
+    display : flex;
+    justify-content : space-between;
+    width : 100%;
+    margin-top : 15%;
+}
+
+.image-area > img {
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+}
+
+.member-name {
+    font-size : 16px;
+}
+
+.member-position {
+    font-size : 16px;
+}
+
+.profile-text {
+    text-align : center;
+    margin-top : 20px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .row-1 {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+
+    .row-2 {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+
+    .row-2a {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+
+    .row-2b {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+
+    .image-area {
+        width : 55%;
+        max-height : 400px;
+        margin-top : 15%;
+        margin-bottom : 10%;
+    }
+}

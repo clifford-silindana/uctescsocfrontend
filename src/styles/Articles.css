@@ -1,0 +1,21 @@
+.articles-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addition-img {
+  width: 50px;
+}
+
+.articles-section {
+  margin-top: 50px;
+}
+
+
+.article-link {
+  padding-bottom : 30px;
+}
+
+.article-body {
+  margin-top : 20px;
+}

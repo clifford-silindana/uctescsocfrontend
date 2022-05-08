@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size : 20px;
+  
+}
+
+body {
+  background: black;
+  margin: 2% auto;
+  width: 90%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+.body-section {
+  margin-top : 150px;
+}
+
+/* -------- VIDEOS STYLES ---------*/
+.videos-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.videosheader {
+  font-size : 30px;
+  
+}
+
+.videos-row {
+  width : 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.video-area {
+  width: 30%;
+  height: 200px;
+}
+
+.videos-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-description {
+  font-size : 25px;
+}
+
+.videos-content {
+  margin-bottom : 20%;
+}
+
+.video-type-section {
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 50px;
+  position : relative;
+}
+
+.video-type-section:hover {
+  opacity : 0.8;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translate(-50%, -50%);
+  text-transform: lowercase;
+  text-align : center;
+  background : rgba(0,0,0, 0.4);
+  font-size : 25px;
+}
+
+@media only screen and (max-width: 500px) {
+  .videos-row {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : 100%;
+  
+  }
+
+  .video-area {
+    width : 60%;
+    height : 200px;
+    margin-top : 5%;
+
+  }
+
+  .video-type-section {
+    width : 60%;
+    height : 200px;
+  }
+}
+
+
+/* ARTICLES STYLING */
+
+.article-heading {
+  margin-bottom : 50px;
+}
+
+.article-body {
+  font-size : 16px;
+}
