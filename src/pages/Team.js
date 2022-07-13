@@ -14,6 +14,17 @@ import pic8 from "../images/team/pic8.png";
 import pic9 from "../images/team/pic9.png";
 import pic10 from "../images/team/pic10.png";
 import pic11 from "../images/team/pic11.jpg";
+import PIC0A from "../images/team/PIC0A.jpg";
+import PIC1A from "../images/team/PIC1A.jpg";
+import PIC2A from "../images/team/PIC2A.jpg";
+import PIC3A from "../images/team/PIC3A.jpg";
+import PIC4A from "../images/team/PIC4A.jpg";
+import PIC5A from "../images/team/PIC5A.jpg";
+import PIC6A from "../images/team/PIC6A.jpg";
+import PIC8A from "../images/team/PIC8A.jpg";
+import PIC9A from "../images/team/pic9.png";
+import PIC10A from "../images/team/PIC10A.jpg";
+import PIC11A from "../images/team/PIC11A.jpg";
 
 
 function Team() {
@@ -29,7 +40,7 @@ function Team() {
 
             <div className = "row-1">
               <div className = "image-area">
-                <img src= {pic1} alt="..." />
+                <img src= {PIC1A} alt="..." />
                 <div className = "profile-text">
                   <h1 className = "member-name">Vinayak Panday</h1>
                   <p className = "member-position">President</p>
@@ -37,7 +48,7 @@ function Team() {
               </div>
 
               <div className = "image-area">
-                <img src= {pic2} alt="..." />
+                <img src= {PIC2A} alt="..." />
                 <div className = "profile-text">
                   <h1 className = "member-name">Molatodi Samuel Mahara</h1>
                   <p className = "member-position">Advising President</p>
@@ -45,7 +56,7 @@ function Team() {
               </div>
 
               <div className = "image-area">
-                <img src= {pic3} alt="..." />
+                <img src= {PIC3A} alt="..." />
                 <div className = "profile-text">
                   <h1 className = "member-name">Rowan Cowper</h1>
                   <p className = "member-position">Chief Operations Officer</p>
@@ -57,7 +68,7 @@ function Team() {
 
           <div className = "row-2a">
               <div className = "image-area">
-                <img src= {pic4} alt="..." />
+                <img src= {PIC4A} alt="..." />
                 <div className = "profile-text">
                   <h1 className = "member-name">Realeboga Lekoma </h1>
                   <p className = "member-position">Secreatry General</p>
@@ -65,7 +76,7 @@ function Team() {
               </div>
 
               <div className = "image-area">
-                <img src= {pic5} alt="..." />
+                <img src= {PIC5A} alt="..." />
                 <div className = "profile-text">
                   <h1 className = "member-name">Kitso Raaf</h1>
                   <p className = "member-position">Treasurer</p>
@@ -80,7 +91,7 @@ function Team() {
 
         <div className = "row-1">
           <div className = "image-area">
-            <img src= {pic6} alt="..." />
+            <img src= {PIC6A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Nande Mbixwa</h1>
               <p className = "member-position">Marketing Director</p>
@@ -88,7 +99,7 @@ function Team() {
           </div>
 
           <div className = "image-area">
-            <img src= {pic7} alt="..." />
+            <img src= {PIC0A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Clifford Silindana</h1>
               <p className = "member-position">Project Manager : Simulation Challenge</p>
@@ -96,7 +107,7 @@ function Team() {
           </div>
 
           <div className = "image-area">
-            <img src= {pic8} alt="..." />
+            <img src= {PIC8A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Rebaone Koopalame</h1>
               <p className = "member-position">Project Manager : Leopard's Lair</p>
@@ -108,7 +119,7 @@ function Team() {
 
         <div className = "row-2b">
           <div className = "image-area">
-            <img src= {pic9} alt="..." />
+            <img src= {PIC9A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Siphe Booi</h1>
               <p className = "member-position">Women in Entrepreneurship</p>
@@ -116,7 +127,7 @@ function Team() {
           </div>
 
           <div className = "image-area">
-            <img src= {pic10} alt="..." />
+            <img src= {PIC10A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Rebaone Tsele</h1>
               <p className = "member-position">Co-operate Liason</p>
@@ -124,7 +135,7 @@ function Team() {
           </div>
 
           <div className = "image-area">
-            <img src= {pic11} alt="..." />
+            <img src= {PIC11A} alt="..." />
             <div className = "profile-text">
               <h1 className = "member-name">Bafana Sitole</h1>
               <p className = "member-position">Events</p>
